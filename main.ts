@@ -6,9 +6,9 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LINE_ONE =
-  "Don't walk out of the Bekasi warehouse at 11 p.m. on your first night, no matter how loud the foreman shouts.";
+  "Don't walk out of the Bekasi warehouse at 11 p.m. on your first night, however loud the foreman shouts.";
 const LINE_TWO =
-  "Because the supervisor who sees you finish that shift is the one who puts your name forward for the forklift course, and that licence changes everything that comes after.";
+  "The supervisor who watches you finish that shift puts your name forward for the forklift course a month later, and that licence is what gets you out of lifting boxes for good.";
 
 const ENTRY = `${LINE_ONE}\n${LINE_TWO}`;
 
